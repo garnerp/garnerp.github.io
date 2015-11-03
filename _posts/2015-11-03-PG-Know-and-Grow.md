@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "P&G Know and Grow Blog Entry"
-date:   2014-08-31 14:36:23
+date:   2015-11-03 14:36:23
 ---
 
 <span class="image featured"><img src="/images/pic03.jpg" alt=""></span>
