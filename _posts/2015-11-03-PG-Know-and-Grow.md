@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Morbi a Semper"
+title:  "P&G Know and Grow Blog Entry"
 date:   2014-08-31 14:36:23
 ---
 
