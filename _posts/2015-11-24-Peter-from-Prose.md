@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+title:  "From Prose"
+date:   2015-11-24 14:36:23
 ---
 
 ## A New Post
