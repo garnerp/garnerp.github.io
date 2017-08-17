@@ -112,6 +112,16 @@
           "user": "garnerp",
           "repo": "garnerp.github.io"
         }
+      ],
+      "links": [
+        {
+          "href": "us.pg.com",
+          "text": "PG.com"
+        },
+        {
+          "href": "pgcanada.ca",
+          "text": "P&G Canada"
+        }
       ]
     },
     {
