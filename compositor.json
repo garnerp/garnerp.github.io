@@ -1,0 +1,138 @@
+{
+  "name": "garnerp/garnerp.github.io",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/garnerp/garnerp.github.io",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "garnerp.github.io",
+      "subhead": null,
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "garnerp.github.io: ",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "garnerp",
+          "repo": "garnerp.github.io"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<p>Twenty by HTML5 UP\nhtml5up.net | @n33co\nFree for personal and commercial use under the CCA 3.0 license (html5up.net/license)</p>\n<p>This is Twenty, a minimal, multi-page responsive site template for HTML5 UP.</p>\n<p>As the name implies, this is my twentieth (!) design for HTML5 UP. Since the last\nfew have been single page affairs, I decided to go with something a bit more conventional\nand threw in four extra page layouts. Beyond that, it&apos;s the usual drill: fully responsive,\nbuilt on HTML5/CSS3/skel, and CCA licensed like all my other stuff. Sass sources are\nalso included for those of you into that sort of thing (entirely optional).</p>\n<p>Special thanks to Michael Domaradzki (md.photomerchant.net) for allowing me to use\nhis excellent photos in Twenty&apos;s demo*.</p>\n<p>(* = Not included! Only meant for use with my own on-site demo, so please do NOT download\nand/or use any of Michael&apos;s work without his explicit permission!)</p>\n<p>AJ\nn33.co @n33co dribbble.com/n33</p>\n<p>Credits:</p>\n<pre>Demo Images:\n    Michael Domaradzki (md.photomerchant.net)\n        <span class=\"hljs-string\">&quot;Night Vision&quot;</span>\n        <span class=\"hljs-string\">&quot;At the Station II&quot;</span>\n        <span class=\"hljs-string\">&quot;Airchitecture II&quot;</span>\n        <span class=\"hljs-string\">&quot;Livewires II&quot;</span>\n        <span class=\"hljs-string\">&quot;Midnite Xpress I&quot;</span>\n\nIcons:\n    Font Awesome (fortawesome.github.com/Font-Awesome)\n\nOther:\n    jQuery (jquery.com)\n    html5shiv.js (@afarkas @jdalton @jon_neal @rem)\n    CSS3 Pie (css3pie.com)\n    background-size polyfill (github.com/louisremi)\n    jquery.dropotron (n33.co)\n    jquery.scrolly (n33.co)\n    jquery.scrollgress (n33.co)\n    skel (n33.co)</pre>"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/garnerp/garnerp.github.io",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/garnerp",
+          "text": "garnerp"
+        }
+      ]
+    }
+  ]
+}
